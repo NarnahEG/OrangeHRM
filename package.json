@@ -1,0 +1,16 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "for web automation purpose",
+  "main": "index.js",
+  "scripts": {
+    "cypress-local": "npx cypress run -b chrome --headless",
+    "cypress-ci": "npx cypress run",
+    "cypress-dash": "npx cypress run --record --key fb042443-297b-4966-ad25-ff6f1f7ab984"
+  },
+  "author": "Narnah",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2"
+  }
+}

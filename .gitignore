@@ -1,6 +1,4 @@
 package-lock.json
-package.json
-cypress.config.js
 advert.jpg
 node_modules
 cypress/fixtures/
